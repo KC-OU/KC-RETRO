@@ -6,10 +6,18 @@ repo_name: KC-OU/KC-RETRO
 # navigation
 
 nav:
-     - Home : 'index.md'
-     - Nintendo :
-         - 'N64' :
-             - 'Nintendo/N64/Nintendo64.md'
+  - Home: 'index.md'
+  - Nintendo:
+      - N64:
+          - 'Nintendo/N64/Nintendo64.md'
+          - Categories:
+              - RPG:
+                  - Paper Mario:
+                      - 'Nintendo/N64/Categories/RPG/PaperMario/PaperMario.md'
+                      - 'Nintendo/N64/Categories/RPG/PaperMario/PaperMario-Achivements.md'
+ 
+ #        - 'PaperMario' :
+  #           - 'Nintendo/N64/Categories/RPG/PaperMario/PaperMario.md'   
 
 
 # Theme config
