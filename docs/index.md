@@ -13,4 +13,3 @@ Welcome to KC Retro, your ultimate destination for all things retro gaming! Here
 - **Useful Information**: Stay informed with the latest news, updates, and guides related to retro gaming. Whether you're looking for emulator recommendations or hardware reviews, we've got you covered.
 
 Join us on this nostalgic journey and relive the golden age of gaming with KC Retro!
-lc

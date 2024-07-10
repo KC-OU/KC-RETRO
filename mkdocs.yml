@@ -7,8 +7,9 @@ repo_name: KC-OU/KC-RETRO
 
 nav:
      - Home : 'index.md'
-
-
+     - Nintendo :
+         - 'N64' :
+             - 'Nintendo/N64/Nintendo64.md'
 
 
 # Theme config
