@@ -1,6 +1,28 @@
 # Nintendo 64
 ![N64](../../assets/Nintendo/N64/N64.png)
 
+## Infomation
+The table below provides detailed information about the Nintendo 64, including its generation, release dates in various regions, discontinuation dates, and its predecessor and successor consoles.
+
+| Generation | Fifth generation |
+|------------|------------------|
+| Release Date | Japan - June 23, 1996 |
+|  | North America - September 29, 1996 |
+|  | Europe - March 1, 1997 |
+|  | Australia - March 1, 1997 |
+|  | France - September 1, 1997 |
+|  | Brazil - December 10, 1997 |
+|  | China (iQue Player) - November 17, 2003 |
+| Discontinued | Japan - April 30, 2002 |
+|  | North America - May 11, 2003 |
+|  | Europe - May 16, 2003 |
+|  | Australia - November 30, 2003 |
+|  | China (iQue Player) - December 31, 2016 |
+| Predecessor | Super Nintendo Entertainment System |
+| Successor | Nintendo GameCube |
+
+---
+
 ## Introduction and Backstory
 The Nintendo 64 (formatted on the logo as NINTENDO®64), also referred to as the N64, as well as rebranded as the Hyundai Comboy 64 in South Korea, is a video game console created by Nintendo. It was released in 1996 to compete with the Sega Saturn and the PlayStation. It was codenamed "Project Reality" during development and is the first Nintendo home console to use the same name and design between the Japanese and international versions.
 
