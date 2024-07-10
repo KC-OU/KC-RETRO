@@ -25,8 +25,24 @@ theme:
     logo: assets/logo.png
     favicon: images/favicon.png
     font:
-        text: Open Sans
-        code: IBM Plex Mono
-  
-   
-  
+        text: Raleway
+        code: Ubuntu Mono
+
+  # //TODO: Need to change the fonts
+    palette:
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: 'blue'
+        accent: 'light blue'
+        toggle:
+            icon: material/brightness-4
+            name: Toggle light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: light
+        primary: 'blue'
+        accent: 'light blue'
+        toggle:
+            icon: material/brightness-7
+            name: Toggle dark mode
+
+    
