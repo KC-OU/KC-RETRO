@@ -7,7 +7,6 @@ repo_name: KC-OU/KC-RETRO
 
 nav:
      - Home : 'index.md'
-     - Temp-emulation : 'temp-emulators.md'
 
 
 
