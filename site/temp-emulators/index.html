@@ -1,0 +1,1707 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://kierancollins/retro.co.uk/temp-emulators/">
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.2.5">
+    
+    
+      
+        <title>Temp-emulation - KC-RETRO</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Raleway";--md-code-font:"Ubuntu Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-cheat-sheet-is-your-tool-to-success" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="KC-RETRO" class="md-header__button md-logo" aria-label="KC-RETRO" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KC-RETRO
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Temp-emulation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Toggle light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Toggle light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="light" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Toggle dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Toggle dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/KC-OU/KC-RETRO" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    KC-OU/KC-RETRO
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="KC-RETRO" class="md-nav__button md-logo" aria-label="KC-RETRO" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    KC-RETRO
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/KC-OU/KC-RETRO" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    KC-OU/KC-RETRO
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Temp-emulation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Temp-emulation
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-this-page-covers" class="md-nav__link">
+    What this page covers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-sheet-table-of-contents" class="md-nav__link">
+    Cheat Sheet Table of Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-the-cheat-sheets" class="md-nav__link">
+    How to Use the Cheat Sheets
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Use the Cheat Sheets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-cheat-sheets-table-of-contents" class="md-nav__link">
+    How to Use the Cheat Sheets Table of Contents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-tables" class="md-nav__link">
+    How to Use The Tables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-do-i-get-the-bios-files" class="md-nav__link">
+    Where do I get the BIOS files?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-do-i-place-the-bios-files" class="md-nav__link">
+    Where do I place the BIOS files?
+  </a>
+  
+    <nav class="md-nav" aria-label="Where do I place the BIOS files?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-do-i-find-the-emulationbios-folder" class="md-nav__link">
+    Where do I find the Emulation/bios folder?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-place-bios-files-directly-into-emulationbios" class="md-nav__link">
+    When to place BIOS Files directly into Emulation/bios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-create-a-subfolder" class="md-nav__link">
+    When to create a subfolder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-do-not-required-and-optional-mean" class="md-nav__link">
+    What do "Not Required" and "Optional" mean?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use" class="md-nav__link">
+    For systems with multiple emulators, how do I select which emulator to use?
+  </a>
+  
+    <nav class="md-nav" aria-label="For systems with multiple emulators, how do I select which emulator to use?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steam-rom-manager" class="md-nav__link">
+    Steam ROM Manager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es-de" class="md-nav__link">
+    ES-DE
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-breakdown-of-libretro-wiki-pages" class="md-nav__link">
+    A Breakdown of Libretro Wiki Pages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator" class="md-nav__link">
+    What is the difference between a RetroArch core and a standalone emulator?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-of-retroarch-cores-used-by-emudeck" class="md-nav__link">
+    List of RetroArch Cores Used by EmuDeck
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-sheets" class="md-nav__link">
+    Cheat Sheets
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Sheets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arcade-and-mame-related-emulation-cheat-sheet" class="md-nav__link">
+    Arcade and MAME Related Emulation Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Arcade and MAME Related Emulation Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#final-burn-neo" class="md-nav__link">
+    Final Burn Neo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-2003" class="md-nav__link">
+    MAME 2003
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-2010" class="md-nav__link">
+    MAME 2010
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-current" class="md-nav__link">
+    MAME Current
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-standalone" class="md-nav__link">
+    MAME (Standalone)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#philips-cd-i" class="md-nav__link">
+    Philips CD-i
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiger-electronics-gamecom" class="md-nav__link">
+    Tiger Electronics Game.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vtech-vsmile" class="md-nav__link">
+    VTech V.Smile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atari-cheat-sheet" class="md-nav__link">
+    Atari Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bandai-cheat-sheet" class="md-nav__link">
+    Bandai Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-engine-recreations-cheat-sheet" class="md-nav__link">
+    Game Engine Recreations Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Engine Recreations Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#doom" class="md-nav__link">
+    DooM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easyrpg" class="md-nav__link">
+    EasyRPG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pico-8" class="md-nav__link">
+    Pico-8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scummvm" class="md-nav__link">
+    ScummVM
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mattel-cheat-sheet" class="md-nav__link">
+    Mattel Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Mattel Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mattel-electronics-intellivison" class="md-nav__link">
+    Mattel Electronics Intellivison
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-cheat-sheet" class="md-nav__link">
+    Microsoft Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Microsoft Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-xbox" class="md-nav__link">
+    Microsoft Xbox
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-xbox-360" class="md-nav__link">
+    Microsoft Xbox 360
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-msx-1" class="md-nav__link">
+    Microsoft MSX 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-msx-2" class="md-nav__link">
+    Microsoft MSX 2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nec-cheat-sheet" class="md-nav__link">
+    NEC Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="NEC Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nec-turbografx-16-pc-engine" class="md-nav__link">
+    NEC TurboGrafx-16 / PC Engine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turbografx-16-pc-engine-cd" class="md-nav__link">
+    TurboGrafx-16 / PC Engine CD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nec-supergrafx" class="md-nav__link">
+    NEC SuperGrafx
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nintendo-cheat-sheet" class="md-nav__link">
+    Nintendo Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panasonic-cheat-sheet" class="md-nav__link">
+    Panasonic Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Panasonic Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#panasonic-3do" class="md-nav__link">
+    Panasonic 3DO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-computers-cheat-sheet" class="md-nav__link">
+    Personal Computers Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sega-cheat-sheet" class="md-nav__link">
+    Sega Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-cheat-sheet" class="md-nav__link">
+    SNK Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="SNK Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#snk-neo-geo-cd" class="md-nav__link">
+    SNK Neo Geo CD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-neo-geo-pocket" class="md-nav__link">
+    SNK Neo Geo Pocket
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-neo-geo-pocket-color" class="md-nav__link">
+    SNK Neo Geo Pocket Color
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sony-cheat-sheet" class="md-nav__link">
+    Sony Cheat Sheet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-this-page-covers" class="md-nav__link">
+    What this page covers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-sheet-table-of-contents" class="md-nav__link">
+    Cheat Sheet Table of Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-the-cheat-sheets" class="md-nav__link">
+    How to Use the Cheat Sheets
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Use the Cheat Sheets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-cheat-sheets-table-of-contents" class="md-nav__link">
+    How to Use the Cheat Sheets Table of Contents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-the-tables" class="md-nav__link">
+    How to Use The Tables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-do-i-get-the-bios-files" class="md-nav__link">
+    Where do I get the BIOS files?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-do-i-place-the-bios-files" class="md-nav__link">
+    Where do I place the BIOS files?
+  </a>
+  
+    <nav class="md-nav" aria-label="Where do I place the BIOS files?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-do-i-find-the-emulationbios-folder" class="md-nav__link">
+    Where do I find the Emulation/bios folder?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-place-bios-files-directly-into-emulationbios" class="md-nav__link">
+    When to place BIOS Files directly into Emulation/bios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-create-a-subfolder" class="md-nav__link">
+    When to create a subfolder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-do-not-required-and-optional-mean" class="md-nav__link">
+    What do "Not Required" and "Optional" mean?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use" class="md-nav__link">
+    For systems with multiple emulators, how do I select which emulator to use?
+  </a>
+  
+    <nav class="md-nav" aria-label="For systems with multiple emulators, how do I select which emulator to use?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steam-rom-manager" class="md-nav__link">
+    Steam ROM Manager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es-de" class="md-nav__link">
+    ES-DE
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-breakdown-of-libretro-wiki-pages" class="md-nav__link">
+    A Breakdown of Libretro Wiki Pages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator" class="md-nav__link">
+    What is the difference between a RetroArch core and a standalone emulator?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-of-retroarch-cores-used-by-emudeck" class="md-nav__link">
+    List of RetroArch Cores Used by EmuDeck
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-sheets" class="md-nav__link">
+    Cheat Sheets
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Sheets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arcade-and-mame-related-emulation-cheat-sheet" class="md-nav__link">
+    Arcade and MAME Related Emulation Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Arcade and MAME Related Emulation Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#final-burn-neo" class="md-nav__link">
+    Final Burn Neo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-2003" class="md-nav__link">
+    MAME 2003
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-2010" class="md-nav__link">
+    MAME 2010
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-current" class="md-nav__link">
+    MAME Current
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mame-standalone" class="md-nav__link">
+    MAME (Standalone)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#philips-cd-i" class="md-nav__link">
+    Philips CD-i
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiger-electronics-gamecom" class="md-nav__link">
+    Tiger Electronics Game.com
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vtech-vsmile" class="md-nav__link">
+    VTech V.Smile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atari-cheat-sheet" class="md-nav__link">
+    Atari Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bandai-cheat-sheet" class="md-nav__link">
+    Bandai Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-engine-recreations-cheat-sheet" class="md-nav__link">
+    Game Engine Recreations Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Engine Recreations Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#doom" class="md-nav__link">
+    DooM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easyrpg" class="md-nav__link">
+    EasyRPG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pico-8" class="md-nav__link">
+    Pico-8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scummvm" class="md-nav__link">
+    ScummVM
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mattel-cheat-sheet" class="md-nav__link">
+    Mattel Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Mattel Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mattel-electronics-intellivison" class="md-nav__link">
+    Mattel Electronics Intellivison
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-cheat-sheet" class="md-nav__link">
+    Microsoft Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Microsoft Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-xbox" class="md-nav__link">
+    Microsoft Xbox
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-xbox-360" class="md-nav__link">
+    Microsoft Xbox 360
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-msx-1" class="md-nav__link">
+    Microsoft MSX 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-msx-2" class="md-nav__link">
+    Microsoft MSX 2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nec-cheat-sheet" class="md-nav__link">
+    NEC Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="NEC Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nec-turbografx-16-pc-engine" class="md-nav__link">
+    NEC TurboGrafx-16 / PC Engine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turbografx-16-pc-engine-cd" class="md-nav__link">
+    TurboGrafx-16 / PC Engine CD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nec-supergrafx" class="md-nav__link">
+    NEC SuperGrafx
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nintendo-cheat-sheet" class="md-nav__link">
+    Nintendo Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panasonic-cheat-sheet" class="md-nav__link">
+    Panasonic Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="Panasonic Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#panasonic-3do" class="md-nav__link">
+    Panasonic 3DO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-computers-cheat-sheet" class="md-nav__link">
+    Personal Computers Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sega-cheat-sheet" class="md-nav__link">
+    Sega Cheat Sheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-cheat-sheet" class="md-nav__link">
+    SNK Cheat Sheet
+  </a>
+  
+    <nav class="md-nav" aria-label="SNK Cheat Sheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#snk-neo-geo-cd" class="md-nav__link">
+    SNK Neo Geo CD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-neo-geo-pocket" class="md-nav__link">
+    SNK Neo Geo Pocket
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-neo-geo-pocket-color" class="md-nav__link">
+    SNK Neo Geo Pocket Color
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sony-cheat-sheet" class="md-nav__link">
+    Sony Cheat Sheet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/KC-OU/KC-RETRO/edit/master/docs/temp-emulators.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+<!--If you would like to edit this page, the tables are located in the docs/tables folder -->
+<!--You may open the CSV files in any spreadsheet editor such as Excel, Google Spreadsheets, or LibreOffice-->
+
+<h1 id="the-cheat-sheet-is-your-tool-to-success">The Cheat Sheet is Your Tool to Success.</h1>
+<hr />
+<h2 id="what-this-page-covers">What this page covers</h2>
+<ul>
+<li>Emulator or RetroArch core names</li>
+<li>Expected ROM folder locations</li>
+<li>Expected ROM file types</li>
+<li>Expected BIOS (if required)</li>
+<li>Expected BIOS location<ul>
+<li>Typically, BIOS files are placed directly into the <code>Emulation/bios</code> folder. <strong>Do not</strong> make or use any additional folders unless otherwise specified on the charts below</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="cheat-sheet-table-of-contents">Cheat Sheet Table of Contents</h2>
+<div class="toc">
+<ul>
+<li><a href="#the-cheat-sheet-is-your-tool-to-success">The Cheat Sheet is Your Tool to Success.</a><ul>
+<li><a href="#what-this-page-covers">What this page covers</a></li>
+<li><a href="#cheat-sheet-table-of-contents">Cheat Sheet Table of Contents</a></li>
+<li><a href="#how-to-use-the-cheat-sheets">How to Use the Cheat Sheets</a><ul>
+<li><a href="#how-to-use-the-cheat-sheets-table-of-contents">How to Use the Cheat Sheets Table of Contents</a></li>
+<li><a href="#how-to-use-the-tables">How to Use The Tables</a></li>
+<li><a href="#where-do-i-get-the-bios-files">Where do I get the BIOS files?</a></li>
+<li><a href="#where-do-i-place-the-bios-files">Where do I place the BIOS files?</a><ul>
+<li><a href="#where-do-i-find-the-emulationbios-folder">Where do I find the Emulation/bios folder?</a></li>
+<li><a href="#when-to-place-bios-files-directly-into-emulationbios">When to place BIOS Files directly into Emulation/bios</a></li>
+<li><a href="#when-to-create-a-subfolder">When to create a subfolder</a></li>
+<li><a href="#what-do-not-required-and-optional-mean">What do "Not Required" and "Optional" mean?</a></li>
+</ul>
+</li>
+<li><a href="#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use">For systems with multiple emulators, how do I select which emulator to use?</a><ul>
+<li><a href="#steam-rom-manager">Steam ROM Manager</a></li>
+<li><a href="#es-de">ES-DE</a></li>
+</ul>
+</li>
+<li><a href="#a-breakdown-of-libretro-wiki-pages">A Breakdown of Libretro Wiki Pages</a></li>
+<li><a href="#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator">What is the difference between a RetroArch core and a standalone emulator?</a></li>
+<li><a href="#list-of-retroarch-cores-used-by-emudeck">List of RetroArch Cores Used by EmuDeck</a></li>
+</ul>
+</li>
+<li><a href="#cheat-sheets">Cheat Sheets</a><ul>
+<li><a href="#arcade-and-mame-related-emulation-cheat-sheet">Arcade and MAME Related Emulation Cheat Sheet</a><ul>
+<li><a href="#final-burn-neo">Final Burn Neo</a></li>
+<li><a href="#mame-2003">MAME 2003</a></li>
+<li><a href="#mame-2010">MAME 2010</a></li>
+<li><a href="#mame-current">MAME Current</a></li>
+<li><a href="#mame-standalone">MAME (Standalone)</a></li>
+<li><a href="#philips-cd-i">Philips CD-i</a></li>
+<li><a href="#tiger-electronics-gamecom">Tiger Electronics Game.com</a></li>
+<li><a href="#vtech-vsmile">VTech V.Smile</a></li>
+</ul>
+</li>
+<li><a href="#atari-cheat-sheet">Atari Cheat Sheet</a></li>
+<li><a href="#bandai-cheat-sheet">Bandai Cheat Sheet</a></li>
+<li><a href="#game-engine-recreations-cheat-sheet">Game Engine Recreations Cheat Sheet</a><ul>
+<li><a href="#doom">DooM</a></li>
+<li><a href="#easyrpg">EasyRPG</a></li>
+<li><a href="#pico-8">Pico-8</a></li>
+<li><a href="#scummvm">ScummVM</a></li>
+</ul>
+</li>
+<li><a href="#mattel-cheat-sheet">Mattel Cheat Sheet</a><ul>
+<li><a href="#mattel-electronics-intellivison">Mattel Electronics Intellivison</a></li>
+</ul>
+</li>
+<li><a href="#microsoft-cheat-sheet">Microsoft Cheat Sheet</a><ul>
+<li><a href="#microsoft-xbox">Microsoft Xbox</a></li>
+<li><a href="#microsoft-xbox-360">Microsoft Xbox 360</a></li>
+<li><a href="#microsoft-msx-1">Microsoft MSX 1</a></li>
+<li><a href="#microsoft-msx-2">Microsoft MSX 2</a></li>
+</ul>
+</li>
+<li><a href="#nec-cheat-sheet">NEC Cheat Sheet</a><ul>
+<li><a href="#nec-turbografx-16-pc-engine">NEC TurboGrafx-16 / PC Engine</a></li>
+<li><a href="#turbografx-16-pc-engine-cd">TurboGrafx-16 / PC Engine CD</a></li>
+<li><a href="#nec-supergrafx">NEC SuperGrafx</a></li>
+</ul>
+</li>
+<li><a href="#nintendo-cheat-sheet">Nintendo Cheat Sheet</a></li>
+<li><a href="#panasonic-cheat-sheet">Panasonic Cheat Sheet</a><ul>
+<li><a href="#panasonic-3do">Panasonic 3DO</a></li>
+</ul>
+</li>
+<li><a href="#personal-computers-cheat-sheet">Personal Computers Cheat Sheet</a></li>
+<li><a href="#sega-cheat-sheet">Sega Cheat Sheet</a></li>
+<li><a href="#snk-cheat-sheet">SNK Cheat Sheet</a><ul>
+<li><a href="#snk-neo-geo-cd">SNK Neo Geo CD</a></li>
+<li><a href="#snk-neo-geo-pocket">SNK Neo Geo Pocket</a></li>
+<li><a href="#snk-neo-geo-pocket-color">SNK Neo Geo Pocket Color</a></li>
+</ul>
+</li>
+<li><a href="#sony-cheat-sheet">Sony Cheat Sheet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<hr />
+<h2 id="how-to-use-the-cheat-sheets">How to Use the Cheat Sheets</h2>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<h3 id="how-to-use-the-cheat-sheets-table-of-contents">How to Use the Cheat Sheets Table of Contents</h3>
+<ul>
+<li><a href="#how-to-use-the-tables">How to Use the Tables</a></li>
+<li><a href="#where-do-i-place-the-bios-files">Where do I place the BIOS files?</a></li>
+<li><a href="#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use">For systems with multiple emulators, how do I select which emulator to use?</a></li>
+<li><a href="#a-breakdown-of-libretro-wiki-pages">A Breakdown of Libretro Wiki Pages</a></li>
+<li><a href="#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator">What is the difference between a RetroArch core and a standalone emulator?</a></li>
+</ul>
+<hr />
+<h3 id="how-to-use-the-tables">How to Use The Tables</h3>
+<p><a href="#how-to-use-the-cheat-sheets-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>BIOS files are placed directly into the <code>Emulation/bios</code> folder. <strong>Do not</strong> make or use any additional folders unless otherwise specified on the charts below</li>
+<li>If the BIOS column contains: <code>Not Required</code>, BIOS files are not required to play the respective system</li>
+<li>If the BIOS column contains: <code>Optional</code>, BIOS files may add console intros or menu functionality, but you will be able to play games without them</li>
+<li>The chart can be scrolled horizontally</li>
+<li>In many cases, BIOS names are case sensitive. Match the casing to the <code>BIOS</code> column in the chart</li>
+<li>In some cases, BIOS must be named a specific way. Match the file name to the <code>BIOS</code> column in the chart</li>
+<li>To distinguish from RetroArch cores, standalone emulators are indicated in bold and are written with: <code>(Standalone)</code></li>
+<li>If you are on a computer, press <code>CTRL</code> + <code>F</code> or <code>CMD</code> + <code>F</code> together to search the chart<ul>
+<li><img src="https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/assets/how-to-use-the-tables.png" height="300"></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="where-do-i-get-the-bios-files">Where do I get the BIOS files?</h3>
+<p>Legally, BIOS must be obtained from your console. Various emulator websites have guides on how to dump BIOS. Other methods are <strong>piracy</strong> and <strong>cannot be discussed</strong> here or on the EmuDeck Discord. </p>
+<p>Here are a list of resources for the various consoles:</p>
+<ul>
+<li>Microsoft Xbox (OG)<ul>
+<li><a href="http://wiki.redump.org/index.php?title=Microsoft_Xbox_and_Xbox_360_Dumping_Guide">http://wiki.redump.org/index.php?title=Microsoft_Xbox_and_Xbox_360_Dumping_Guide</a></li>
+</ul>
+</li>
+<li>Nintendo DS<ul>
+<li><a href="https://dumping.guide/carts/nintendo/ds">https://dumping.guide/carts/nintendo/ds</a></li>
+</ul>
+</li>
+<li>Nintendo Switch<ul>
+<li><a href="https://yuzu-emu.org/help/quickstart/">https://yuzu-emu.org/help/quickstart/</a></li>
+</ul>
+</li>
+<li>Nintendo Wii U<ul>
+<li><a href="https://cemu.cfw.guide/using-dumpling.html">https://cemu.cfw.guide/using-dumpling.html</a> </li>
+</ul>
+</li>
+<li>PlayStation 1<ul>
+<li><a href="https://www.ngemu.com/threads/psx-bios-dumping-guide.93161/">https://www.ngemu.com/threads/psx-bios-dumping-guide.93161/</a> </li>
+</ul>
+</li>
+<li>PlayStation 2<ul>
+<li><a href="https://pcsx2.net/docs/setup/gather#how-to-dump-your-ps2-bios">https://pcsx2.net/docs/setup/gather#how-to-dump-your-ps2-bios</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="where-do-i-place-the-bios-files">Where do I place the BIOS files?</h3>
+<p>BIOS files are placed directly into the <code>Emulation/bios</code> folder. <strong>Do not</strong> make or use any additional folders unless otherwise specified on the charts below.</p>
+<p><a href="#cheat-sheets">Skip to the Charts</a></p>
+<p>Read through the following sections for a quick run-down of when to and when not to place BIOS directly into <code>Emulation/bios</code>.</p>
+<ul>
+<li><a href="#where-do-i-find-the-emulationbios-folder">Where do I find the Emulation/bios folder?</a></li>
+<li><a href="#when-to-place-bios-files-directly-into-emulationbios">When to place BIOS Files directly into Emulation/bios</a></li>
+<li><a href="#when-to-create-a-subfolder">When to create a subfolder</a></li>
+<li><a href="#what-do-not-required-and-optional-mean">What do "Not Required" and "Optional" mean?</a></li>
+</ul>
+<h4 id="where-do-i-find-the-emulationbios-folder">Where do I find the Emulation/bios folder?</h4>
+<p><strong>On a Steam Deck</strong></p>
+<p>To navigate to the SD Card or a removable storage device, you can click <code>rootfs</code> on the left side in Dolphin (file explorer) and follow one of the below paths.</p>
+<ul>
+<li>Internal SSD<ul>
+<li><code>/home/deck/Emulation/bios</code></li>
+</ul>
+</li>
+<li>SD Card<ul>
+<li><code>/run/media/SDCARDNAME/Emulation/bios</code><ul>
+<li>Your <code>SDCARDNAME</code> may be <code>mmcblk0p1</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Removable Storage Device<ul>
+<li><code>/run/media/deck/DEVICENAME/Emulation/bios</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>On Linux</strong></p>
+<ul>
+<li>Internal SSD<ul>
+<li><code>$HOME/Emulation/bios</code></li>
+</ul>
+</li>
+<li>SD Card<ul>
+<li><code>/run/media/$USERNAME/SDCARDNAME/Emulation/bios</code></li>
+</ul>
+</li>
+<li>Removable Storage Device<ul>
+<li><code>/run/media/$USERNAME/DEVICENAME/Emulation/bios</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>On Windows</strong></p>
+<ul>
+<li>Internal SSD<ul>
+<li><code>%USERPROFILE%\Emulation\bios</code></li>
+</ul>
+</li>
+<li>Removable Storage Device or SD Card<ul>
+<li><code>DRIVELETTER:\Emulation\bios</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="when-to-place-bios-files-directly-into-emulationbios">When to place BIOS Files directly into Emulation/bios</h4>
+<p>For example, the photo below instructs you to <strong>place</strong> <code>sega_101.bin</code> (if you are playing JP games) or <code>mpr-17933.bin</code> (if you are playing US/EU games) <strong>directly</strong> into the <code>Emulation/bios</code> folder. <strong>Do not</strong> make a subfolder.</p>
+<p><img alt="Sega Saturn BIOS Example" src="./assets/sega-saturn-bios-example.png" /></p>
+<p>In <code>Emulation/bios</code>:</p>
+<p><img alt="Sega Saturn Folder Example" src="./assets/sega-saturn-folder-example.png" /></p>
+<h4 id="when-to-create-a-subfolder">When to create a subfolder</h4>
+<p>For example, the photo below instructs you to <strong>create</strong> a <code>dc</code> folder in <code>Emulation/bios</code> and to place <code>dc_boot.bin</code> directly into <code>Emulation/bios/dc</code>. </p>
+<p><img alt="Sega Dreamcast BIOS Example" src="./assets/sega-dreamcast-bios-example.png" /></p>
+<p>In <code>Emulation/bios/dc</code>:</p>
+<p><img alt="Sega Dreamcast Folder Example" src="./assets/sega-dreamcast-folder-example.png" /></p>
+<hr />
+<h4 id="what-do-not-required-and-optional-mean">What do "Not Required" and "Optional" mean?</h4>
+<p>When "Not Required" is written in the BIOS column, it means the emulator will run games without the BIOS.</p>
+<p>When "Optional" is written in the BIOS column, it means the emulator might have some extra functionality or will play the console's splash screen when you launch a game, but will run games without the BIOS.</p>
+<p>In the table below, you can see that the Dolphin emulator does not require BIOS to play Wii games, but the Gamecube BIOS are optional.</p>
+<p><img alt="Not Required and Optional BIOS Example" src="./assets/not-required-and-optional-bios-example.png" /></p>
+<hr />
+<h3 id="for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use">For systems with multiple emulators, how do I select which emulator to use?</h3>
+<p><a href="#how-to-use-the-cheat-sheets-table-of-contents">Back to the Top</a></p>
+<p>For systems with both standalone and RetroArch core options, or multiple standalone options:</p>
+<h4 id="steam-rom-manager">Steam ROM Manager</h4>
+<p>These systems will have multiple parsers, each corresponding to a different emulator or RetroArch core.</p>
+<p>For example: PSX can be played through DuckStation (Standalone), SwanStation, or Beetle PSX. If you prefer to use DuckStation (Standalone) for PSX, enable the <code>Sony PlayStation - DuckStation</code> parser and make sure the <code>SwanStation</code> and <code>Beetle PSX</code> parsers are disabled.</p>
+<h4 id="es-de">ES-DE</h4>
+<p>These systems will have a set default.</p>
+<p>However, you can change which emulator or RetroArch core is used:</p>
+<ol>
+<li>In <code>ES-DE</code>, press the <code>Start</code> button</li>
+<li>Scroll down and select <code>Other Settings</code></li>
+<li>Select <code>Alternative Emulators</code></li>
+<li>Scroll down to the system you would like to configure, press <code>B</code>, and select your preferred emulator</li>
+</ol>
+<hr />
+<h3 id="a-breakdown-of-libretro-wiki-pages">A Breakdown of Libretro Wiki Pages</h3>
+<p><a href="#how-to-use-the-cheat-sheets-table-of-contents">Back to the Top</a></p>
+<p>When reading a Libretro wiki article, the <code>System</code> directory refers to <code>Emulation/bios</code>. Treat the <code>Emulation/bios</code> folder as the <code>System</code> directory and either place your files directly in <code>Emulation/bios</code> or create a folder according to the instructions on the various Libretro wiki pages.</p>
+<hr />
+<h3 id="what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator">What is the difference between a RetroArch core and a standalone emulator?</h3>
+<p><a href="#how-to-use-the-cheat-sheets-table-of-contents">Back to the Top</a></p>
+<p>It mostly comes down to preference.</p>
+<p><strong>RetroArch:</strong> RetroArch comes with a suite of shaders, bezels, cohesive hotkeys across the cores. A lot of small general emulator enhancements with an emphasis on a cohesive experience (for better or for worse).</p>
+<p><strong>Standalone emulators:</strong> Standalone emulators tend to be more up to date, more bleeding edge with the latest improvements to whatever that emulator emulates. Standalone emulators tend to come with a lot of additional features for the specific console it emulates. For example, melonDS features native microphone support. In the case of systems with both RetroArch cores and standalone emulators available, the standalone emulator usually also provides better overall performance than the RetroArch core.</p>
+<hr />
+<h3 id="list-of-retroarch-cores-used-by-emudeck">List of RetroArch Cores Used by EmuDeck</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('list-of-retroarch-cores.csv') }}</p>
+<hr />
+<h2 id="cheat-sheets">Cheat Sheets</h2>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<hr />
+<h3 id="arcade-and-mame-related-emulation-cheat-sheet">Arcade and MAME Related Emulation Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<hr />
+<p>{{ read_csv('arcade-and-mame-related-emulation-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="final-burn-neo">Final Burn Neo</h4>
+</li>
+<li>
+<h4 id="mame-2003">MAME 2003</h4>
+</li>
+<li>
+<h4 id="mame-2010">MAME 2010</h4>
+</li>
+<li>
+<h4 id="mame-current">MAME Current</h4>
+</li>
+<li>
+<h4 id="mame-standalone">MAME (Standalone)</h4>
+</li>
+<li>
+<h4 id="philips-cd-i">Philips CD-i</h4>
+</li>
+<li>
+<h4 id="tiger-electronics-gamecom">Tiger Electronics Game.com</h4>
+</li>
+<li>
+<h4 id="vtech-vsmile">VTech V.Smile</h4>
+</li>
+</ul>
+<hr />
+<h3 id="atari-cheat-sheet">Atari Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('atari-cheat-sheet.csv') }}</p>
+<hr />
+<h3 id="bandai-cheat-sheet">Bandai Cheat Sheet</h3>
+<p>{{ read_csv('bandai-cheat-sheet.csv') }}</p>
+<hr />
+<h3 id="game-engine-recreations-cheat-sheet">Game Engine Recreations Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('game-engine-recreations-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="doom">DooM</h4>
+</li>
+<li>
+<h4 id="easyrpg">EasyRPG</h4>
+</li>
+<li>
+<h4 id="pico-8">Pico-8</h4>
+</li>
+<li>
+<h4 id="scummvm">ScummVM</h4>
+</li>
+</ul>
+<hr />
+<h3 id="mattel-cheat-sheet">Mattel Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('mattel-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="mattel-electronics-intellivison">Mattel Electronics Intellivison</h4>
+</li>
+</ul>
+<hr />
+<h3 id="microsoft-cheat-sheet">Microsoft Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('microsoft-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="microsoft-xbox">Microsoft Xbox</h4>
+</li>
+<li>
+<h4 id="microsoft-xbox-360">Microsoft Xbox 360</h4>
+</li>
+<li>
+<h4 id="microsoft-msx-1">Microsoft MSX 1</h4>
+</li>
+<li>
+<h4 id="microsoft-msx-2">Microsoft MSX 2</h4>
+</li>
+</ul>
+<hr />
+<h3 id="nec-cheat-sheet">NEC Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('nec-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="nec-turbografx-16-pc-engine">NEC TurboGrafx-16 / PC Engine</h4>
+</li>
+<li>
+<h4 id="turbografx-16-pc-engine-cd">TurboGrafx-16 / PC Engine CD</h4>
+</li>
+<li>
+<h4 id="nec-supergrafx">NEC SuperGrafx</h4>
+</li>
+</ul>
+<hr />
+<h3 id="nintendo-cheat-sheet">Nintendo Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('nintendo-cheat-sheet.csv') }}</p>
+<hr />
+<h3 id="panasonic-cheat-sheet">Panasonic Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('panasonic-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="panasonic-3do">Panasonic 3DO</h4>
+</li>
+</ul>
+<hr />
+<h3 id="personal-computers-cheat-sheet">Personal Computers Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('personal-computers-cheat-sheet.csv') }}</p>
+<hr />
+<h3 id="sega-cheat-sheet">Sega Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('sega-cheat-sheet.csv') }}</p>
+<hr />
+<h3 id="snk-cheat-sheet">SNK Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('snk-cheat-sheet.csv') }}</p>
+<ul>
+<li>
+<h4 id="snk-neo-geo-cd">SNK Neo Geo CD</h4>
+</li>
+<li>
+<h4 id="snk-neo-geo-pocket">SNK Neo Geo Pocket</h4>
+</li>
+<li>
+<h4 id="snk-neo-geo-pocket-color">SNK Neo Geo Pocket Color</h4>
+</li>
+</ul>
+<hr />
+<h3 id="sony-cheat-sheet">Sony Cheat Sheet</h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<p>{{ read_csv('sony-cheat-sheet.csv') }}</p>
+<hr />
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.tabs.sticky", "navigation.path", "toc.follow", "navigation.indexes", "content.tooltips", "navigation.instant", "navigation.sections", "content.code.copy", "content.code.annotate", "announce.dismiss"], "search": "../assets/javascripts/workers/search.bd0b6b67.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.467223ff.min.js"></script>
+      
+    
+  </body>
+</html>
