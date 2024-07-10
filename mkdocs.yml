@@ -3,6 +3,16 @@ site_url: https://kierancollins/retro.co.uk
 repo_url: https://github.com/KC-OU/KC-RETRO
 repo_name: KC-OU/KC-RETRO
 
+# navigation
+
+nav:
+     - Home : 'index.md'
+     - Temp-emulation : 'temp-emulators.md'
+
+
+
+
+# Theme config
 theme:
     # Theme: https://squidfunk.github.io/mkdocs-material/
     name: material  
