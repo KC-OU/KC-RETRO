@@ -10,9 +10,9 @@ nav:
   - Nintendo:
       - N64:
           - 'Nintendo/N64/Nintendo64.md'
-          - Categories:
+          - genres:
               - RPG:
-                  - Paper Mario:
+                  - Paper Mario: 
                       - 'Nintendo/N64/Categories/RPG/PaperMario/PaperMario.md'
                       - 'Nintendo/N64/Categories/RPG/PaperMario/PaperMario-Achivements.md'
  
