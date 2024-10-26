@@ -7,7 +7,7 @@ repo_name: KC-OU/KC-Retro
 nav:
   - Home: "index.md"
   - Games List: "games_list.md"
-
+  - Game Platforms: "game_platforms.md"
 theme:
   # Theme: https://squidfunk.github.io/mkdocs-material/
   name: material
