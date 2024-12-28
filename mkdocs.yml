@@ -6,7 +6,8 @@ repo_name: KC-OU/KC-Retro
 # navigation
 nav:
   - Home: "index.md"
-  - Games List: "games_list.md"
+  - Retro Roms List:
+      - Nintendo Switch: "roms-list/Nintendo-Switch.md"
 
 theme:
   # Theme: https://squidfunk.github.io/mkdocs-material/
@@ -25,6 +26,7 @@ theme:
     - navigation.instant
     - navigation.sections
     - content.code.copy
+    - toc.integrate
     - content.code.annotate
     - announce.dismiss
   logo: assets/logo.png
